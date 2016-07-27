@@ -1,0 +1,280 @@
+% !TEX encoding = UTF-8 Unicode
+
+% Compile XeLaTeX or LuaTeX at your choice.
+% You can see the pros and cons of these programs while working with 
+% package ecclesiastic.sty.
+
+\documentclass[12pt]{article}\errorcontextlines=9
+
+\usepackage{trace}
+\usepackage{fontspec}
+\usepackage{color}
+\usepackage{lettrine}
+\usepackage[a4paper, margin=1.5in]{geometry}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{CMU Serif}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{Junicode}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{Arno Pro}
+\setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic},RawFeature={+cv01},Contextuals=Alternate]{EB Garamond}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{Adobe Caslon Pro}
+\usepackage{polyglossia}
+\setmainlanguage[variant=ecclesiastic]{latin}
+\setotherlanguage{english}
+
+\usepackage{multicol}
+\usepackage{testhyphens}
+
+\renewcommand{\LettrineFontHook}{\color{red}}
+
+\newcommand{\leslettrine}[1]{%
+\lettrine{#1}{}
+}
+
+\newcommand{\caplettrine}[1]{%
+\lettrine{\textcolor{black}{#1}}{}
+}
+
+\newcommand\classword{classis}
+
+\newcommand\centerheading[1]{%
+\begin{center}
+\normalsize\textbf{#1}\\%
+\end{center}
+}
+
+\newcommand\versic[1]{%
+\textcolor{red}{\char"2123\ }#1%
+}
+
+\newcommand\response[1]{%
+\textcolor{red}{\char"211F\ }#1%
+}
+
+\setlength{\columnsep}{1.75pc}
+
+\title{Novena ad Sacratissimum Cor Iesu}
+\author{et orationes ad Sacratissimum Cor Iesu}
+
+\begin{document}
+
+\centerheading{\LARGE{\color{red}Novena ad Sacratissimum Cor Iesu}}
+
+\bigskip
+
+\begin{multicols}{2}
+%\raggedright
+%\righthyphenmin=2\relax
+%\multicoltolerance = 100000
+
+\lettrine{I}{\color{red}n} nomine Patris, et Filii, et Spiritus Sancti.
+
+\response \textit{Amen.}
+
+\bigskip
+
+\lettrine{D}{\color{red}omine Iesu}, qui ineffabiles Cordis tui dulcedines ac divitias Ecclesi\ae\ Spons\ae\ tu\ae\ singulari dilectione aperire dignatus es: concede nobis famulis tuis, ut gratiis c\ae lestibus, ex hoc dulcissimo fonte manantibus, ditare et recreari mereamur.
+
+\response \textit{Amen.}
+
+\bigskip
+
+\versic Cor Iesu, flagrans amore nostri.
+
+\response \textit{Inflamma cor nostrum amore tui.}
+
+\bigskip
+
+\lettrine{D}{\color{red}omine Iesu Christe}, qui dixisti: Petite et accipietis; qu\ae rite et invenietis; pulsate et aperietur vobis; qu\ae sumus, da nobis petentibus divinissimi tui amoris affectum, ut te toto corde, ore et opere diligamus et a tua numquam laude cessemus.
+
+\response \textit{Amen.}
+
+\bigskip
+
+{\color{red}\scriptsize{hic morare ad Sacrum Cor petendum}}
+
+\bigskip
+
+\versic O Sacrum Cor Iesu, Patris voluntati obsequentissimum.
+
+\response \textit{Inclina ad te corda nostra, ut qu\ae\ placita sunt ei faciamus semper.}
+
+\columnbreak
+
+\lettrine{O}{\color{red}\ divinum} Cor Iesu, pr\ae sta, qu\ae sumus, animabus purgantibus requiem \ae ternam, morituris gratiam finalem, peccatoribus veram p\ae nitentiam, paganis fidei lucem, nobis nostrisque omnibus tuam benedictionem. Tibi ergo, Cor Iesu piissimum, omnes has animas commendamus et pro ipsis tibi offerimus omnia merita sacri Cordis tui.
+
+\response \textit{Amen.}
+
+\bigskip
+
+\versic O sacrum Cor Iesu, salutis nostr\ae\ sitientissimum.
+
+\response \textit{Revoca nos pr\ae varicatores ad Cor, ut non moriamur in peccatis nostris.}
+
+\bigskip
+
+\lettrine{O}{\color{red}remus}. Deus, qui nobis, in Corde Filii tui, nostris vulnerato peccatis, infinitos dilectionis thesauros misericorditer largiri dignaris; concede, qu\ae sumus, ut illi devotum pietatis nostr\ae\ pr\ae stantes obsequium, dign\ae\ quoque satisfactionis exhibeamus officium. Per eundem Christum Dominum nostrum.
+
+\response \textit{Amen.}
+
+\end{multicols}
+
+\newpage
+
+\newgeometry{margin=0.75in}
+
+\centerheading{\LARGE{\color{red}Litani\ae\ de Sacratissimo Corde Iesu}}
+
+\bigskip
+
+\begin{multicols}{2}
+
+Kyrie, eleison
+
+Christe, eleison
+
+Kyrie, eleison
+
+Christe,\hfill\textit{audi nos.}
+
+Christe,\hfill\textit{exaudi nos.}
+
+Pater de caelis, Deus,\hfill\textit{miserere nobis.}
+
+Fili, Redemptor mundi, Deus,\hfill\textit{miserere nobis.}
+
+Spiritus Sancte, Deus,\hfill\textit{miserere nobis.}
+
+Sancta Trinitas, unus Deus,\hfill\textit{miserere nobis.}
+
+Cor Iesu, Filii Patris \ae terni,\hfill\textit{miserere nobis.}
+
+Cor Iesu, in sinu Virginis Matris a Spiritu Sancto formatum,\hfill\textit{miserere nobis.}
+
+Cor Iesu, Verbo Dei substantialiter unitum,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, maiestatis infinit\ae,\hfill\textit{miserere nobis.}
+
+Cor Iesu, templum Dei sanctum,\hfill\textit{miserere nobis.}
+
+Cor Iesu, tabernaculum Altissimi,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, domus Dei et porta c\ae li,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, fornax ardens caritatis,\hfill\textit{miserere nobis.}
+
+Cor Iesu, iustiti\ae\ et amoris receptaculum,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, bonitate et amore plenum,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, virtutum omnium abyssus,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, omni laude dignissimum,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, rex et centrum omnium cordium,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, in quo sunt omnes thesauri sapienti\ae\ et scienti\ae,\hfill\textit{miserere nobis.}
+
+Cor Iesu, in quo habitat omnis plenitudo\linebreak divinitatis,\hfill\textit{miserere nobis.}
+
+Cor Iesu, in quo Pater sibi bene complacuit,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, de cuius plenitudine omnes nos\linebreak accepimus,\hfill\textit{miserere nobis.}
+
+Cor Iesu, desiderium collium \ae ternorum,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, patiens et mult\ae\ misericordi\ae,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, dives in omnes qui invocant te,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, fons vit\ae\ et sanctitatis,\hfill\textit{miserere nobis.}
+
+Cor Iesu, propitiatio pro peccatis nostris,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, saturatum opprobriis,\hfill\textit{miserere nobis.}
+
+Cor Iesu, attritum propter scelera nostra,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, usque ad mortem ob\oe diens factum,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, lancea perforatum,\hfill\textit{miserere nobis.}
+
+Cor Iesu, fons totius consolationis,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, vita et resurrectio nostra,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, pax et reconciliatio nostra,
+
+\hfill\textit{miserere nobis.}
+
+Cor Iesu, victima peccatorum,\hfill\textit{miserere nobis.}
+
+Cor Iesu, salus in te sperantium,\hfill\textit{miserere nobis.}
+
+Cor Iesu, spes in te morientium,\hfill\textit{miserere nobis.}
+
+Cor Iesu, delici\ae\ Sanctorum omnium,
+
+\hfill\textit{miserere nobis.}
+
+Agnus Dei, qui tollis peccata mundi,
+
+\hfill\textit{parce nobis, Domine.}
+
+Agnus Dei, qui tollis peccata mundi,
+
+\hfill\textit{exaudi nos, Domine.}
+
+Agnus Dei, qui tollis peccata mundi,
+
+\hfill\textit{miserere nobis Domine.}
+
+\bigskip
+
+\versic Iesu, mitis et humilis Corde,
+
+\response \textit{Fac cor nostrum secundum Cor tuum.}
+
+\bigskip
+
+\lettrine{O}{\color{red}remus}. Omnipotens sempiterne Deus, respice in Cor dilectissimi Filii tui et in laudes et satisfactiones, quas in nomine peccatorum tibi persolvit, iisque misericordiam tuam petentibus, tu veniam concede placatus in nomine eiusdem Filii tui Iesu Christi: Qui tecum vivit et regnat in s\ae cula s\ae culorum.
+
+\response Amen.
+
+\end{multicols}
+
+\restoregeometry
+
+\end{document}
