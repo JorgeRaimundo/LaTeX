@@ -1,0 +1,200 @@
+% !TEX encoding = UTF-8 Unicode
+
+% Compile XeLaTeX or LuaTeX at your choice.
+% You can see the pros and cons of these programs while working with 
+% package ecclesiastic.sty.
+
+\documentclass[12pt]{article}\errorcontextlines=9
+
+% \usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[a4paper, margin=0.75in]{geometry}
+
+\usepackage{trace}
+\usepackage{fontspec}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{lettrine}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{CMU Serif}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{Junicode}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{Arno Pro}
+\setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic},RawFeature={+cv01},Contextuals=Alternate]{EB Garamond}
+% \setmainfont[Ligatures={TeX,Common,Contextual,Discretionary,Rare,Historic}]{Adobe Caslon Pro}
+\usepackage{polyglossia}
+\setmainlanguage[variant=ecclesiastic]{latin}
+\setotherlanguage{english}
+
+\usepackage{multicol}
+\usepackage{testhyphens}
+
+\renewcommand{\LettrineFontHook}{\color{red}}
+
+\newcommand{\leslettrine}[1]{%
+\lettrine{#1}{}
+}
+
+\newcommand{\caplettrine}[1]{%
+\lettrine{\textcolor{black}{#1}}{}
+}
+
+\newcommand\classword{classis}
+
+\newcommand\centerheading[1]{%
+\begin{center}
+\normalsize\textbf{#1}\\%
+\end{center}
+}
+
+\newcommand\versic[1]{%
+\textcolor{red}{\char"2123\ }#1%
+}
+
+\newcommand\response[1]{%
+\textcolor{red}{\char"211F\ }#1%
+}
+
+\setlength{\columnsep}{1.75pc}
+
+\title{Novena ad Sanctum Ioseph}
+
+\begin{document}
+
+\centerheading{\LARGE{\color{red}Novena ad Sanctum Ioseph}}
+\centerheading{{\color{red}Pro Ecclesia}}
+
+\bigskip
+
+\begin{multicols}{2}
+%\raggedright
+%\righthyphenmin=2\relax
+%\multicoltolerance = 100000
+
+\lettrine{O}{\color{red}remus}, dilectissimi nobis, pro Ecclesia sancta Dei: ut eam Deus et Dominus noster pacificare,
+ adunare et custodire dignetur toto orbe terrarum: subiciens ei principatus et potestates: detque nobis quietam 
+ et tranquillam vitam degentibus, glorificare Deum Patrem omnipotentem.
+
+\bigskip
+
+\lettrine{M}{\color{red}emorare}, o purissime Sponse Virginis Mari\ae , o dulcis Protector mi, sancte Ioseph, non esse auditum a 
+s\ae culo, quemquem ad tua implorantem auxilia, tua petentem suffragia, esse derelictum. Ego tali animatus confidentia ad te venio, 
+tibique fervide me commendo. Noli, qu\ae so, o Pater putative Redemptoris, verba mea despicere, sed audi propitius.
+\response \textit{Amen.}
+
+\bigskip
+
+Kyrie, eleison.
+
+Christe, eleison.
+
+Kyrie, eleison.
+
+Christe, \hfill \textit{audi nos.}
+
+Christe, \hfill \textit{exaudi nos.}
+
+Pater de c\ae lis, Deus, \hfill \textit{miserere nobis.}
+
+Fili, Redemptor mundi, Deus, \hfill \textit{miserere nobis.}
+
+Spiritus Sancte Deus, \hfill \textit{miserere nobis.}
+
+Sancta Trinitas, unus Deus, \hfill \textit{miserere nobis.}
+
+Sancta Maria, \hfill \textit{ora pro nobis.}
+
+Sancte Ioseph, \hfill \textit{ora pro nobis.}
+
+Proles David inclyta, \hfill \textit{ora pro nobis.}
+
+Lumen Patriarcharum, \hfill \textit{ora pro nobis.}
+
+Dei Genetricis Sponse, \hfill \textit{ora pro nobis.}
+
+Custos pudice Virginis, \hfill \textit{ora pro nobis.}
+
+Filii Dei nutricie, \hfill \textit{ora pro nobis.}
+
+Christi defensor sedule, \hfill \textit{ora pro nobis.}
+
+Alm\ae\ Famili\ae\ pr\ae ses, \hfill \textit{ora pro nobis.}
+
+Ioseph iustissime, \hfill \textit{ora pro nobis.}
+
+Ioseph castissime, \hfill \textit{ora pro nobis.}
+
+Ioseph prudentissime, \hfill \textit{ora pro nobis.}
+
+Ioseph fortissime, \hfill \textit{ora pro nobis.}
+
+Ioseph ob\oe dientissime, \hfill \textit{ora pro nobis.}
+
+Ioseph fidelissime, \hfill \textit{ora pro nobis.}
+
+Speculum patienti\ae, \hfill \textit{ora pro nobis.}
+
+Amator paupertatis, \hfill \textit{ora pro nobis.}
+
+Exemplar opificum, \hfill \textit{ora pro nobis.}
+
+Domestic\ae\ vit\ae\ decus, \hfill \textit{ora pro nobis.}
+
+Custos virginum, \hfill \textit{ora pro nobis.}
+
+Familiarum columen, \hfill \textit{ora pro nobis.}
+
+Solatium miserorum, \hfill \textit{ora pro nobis.}
+
+Spes \ae grotantium, \hfill \textit{ora pro nobis.}
+
+Patrone morientium, \hfill \textit{ora pro nobis.}
+
+Terror d\ae monum, \hfill \textit{ora pro nobis.}
+
+Protector sanct\ae\ Ecclesi\ae, \hfill \textit{ora pro nobis.}
+
+Protector sanct\ae\ Ecclesi\ae, \hfill \textit{ora pro nobis.}
+
+Protector sanct\ae\ Ecclesi\ae, \hfill \textit{ora pro nobis.}
+
+Agnus Dei, qui tollis peccata mundi,
+
+\hfill \textit{parce nobis Domine.}
+
+Agnus Dei, qui tollis peccata mundi,
+
+\hfill \textit{exaudi nobis Domine.}
+
+Agnus Dei, qui tollis peccata mundi,
+
+\hfill \textit{miserere nobis.}
+
+\bigskip
+
+\versic Constituit eum dominum domus su\ae.
+
+\response \textit{Et principem omnis possessionis su\ae.}
+
+\bigskip
+
+\lettrine{O}{\color{red}remus}. Deus, qui in ineffabili providentia beatum Ioseph sanctissim\ae\ Genetricis tu\ae\ 
+Sponsum eligere dignatus es, pr\ae sta, qu\ae sumus, ut quem protectorem veneramur in terris, 
+intercessorem habere mereamur in c\ae lis: Qui vivis et regnas in s\ae cula s\ae culorum.
+
+\response \textit{Amen.}
+
+\bigskip
+
+\lettrine{A}{\color{red}d} te, beate Ioseph, in tribulatione nostra confugimus, atque, implorato Spons\ae\ tu\ae\ sanctissim\ae\ auxilio, 
+patrocinium quoque tuum fidenter exposcimus. Per eam, qu\ae sumus, qu\ae\ te cum immaculata Virgine Dei Genetrice coniunxit, caritatem, 
+perque paternum, quo Puerum Iesum amplexus es, amorem, supplices deprecamur, ut ad hereditatem, quam Iesus Christus acquisivit Sanguine suo, 
+benignus respicias, ac necessitatibus nostris tua virtute et ope succurras. Tuere, o Custos providentissime divin\ae\ Famili\ae, 
+Iesu Christi sobolem electam; prohibe a nobis, amantissime Pater, omnem errorum ac corruptelarum luem; propitius nobis, 
+sospitator noster fortissime, in hoc cum potestate tenebrarum certamine e c\ae lo adesto; et sicut olim Puerum Iesum 
+e summo eripuisti vit\ae\ discrimine, ita nunc Ecclesiam sanctam Dei ab hostilibus insidiis atque ab omni adversitate defende: 
+nosque singulos perpetuo tege patrocinio, ut ad tui exemplar et ope tua suffulti, sancte vivere, pie emori, 
+sempiternamque in c\ae lis beatitudinem assequi possimus.
+
+\response \textit{Amen.}
+
+\end{multicols}
+
+\end{document}
